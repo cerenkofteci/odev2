@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="submit_form.php" method="POST">
+        <label for="name">İsim:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+         
+        <label for="surname">Soyisim</label>
+        <input type="text" id="surname" name="surname" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required> 
+        <br><br>
+
+        <label for="gender">Cinsiyet:</label>
+        <input type="radio" name="gender" value="male">Erkek
+        <input type="radio" name="gender" value="male">Kadın
+        <br><br>
+    
+        <label for="furıt">Favori Meyve:</label>
+        <select id="fruit" name="fruit" required>
+            <option value="apple">Elma</option>
+            <option value="banana">Muz</option>
+            <option value="orange">Portakal</option>
+            <option value="grape">Üzüm</option>
+            <option value="strawberry">Çilek</option>
+       
+            <fieldset>
+                <legend>Metin Alanı:</legend>
+
+     
+                <label for="textarea">Metin Alanı:</label>
+                <textarea id="textarea" name="textarea" rows="16" cols="100" required></textarea>
+                <br><br>
+
+                <label for="submit_form">Gönder:</label>
+                <input type="submit" id="submit" name="submit"> 
+                <br><br>
+
+            </fieldset>
+
+            <label for="address">Metin Alanı:</label>
+            <textarea type="text" id="address" rows="5" cols="40" required>
+        
+           
+            
+    
+            
+            
+          
+    </body>
+</html>
